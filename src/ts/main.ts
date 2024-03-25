@@ -1,1 +1,3 @@
-console.log('Yeah');
+import {Game} from "./Controller/Game";
+
+new Game();
