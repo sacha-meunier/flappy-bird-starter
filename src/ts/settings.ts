@@ -1,5 +1,12 @@
 export const settings = {
     birdie: {
+        selector: 'birdie',
+        sw: 34,
+        sh: 24,
+        dx: 0,
+        dy: 0,
+        dw: 34,
+        dh: 24,
         frames: [
             {sx: 6, sy: 982},
             {sx: 62, sy: 982},
@@ -7,6 +14,7 @@ export const settings = {
         ]
     },
     background: {
+        selector: 'background',
         frame: {
             sx: 0,
             sy: 0,
@@ -19,6 +27,7 @@ export const settings = {
         }
     },
     ground: {
+        selector: 'ground',
         frame: {
             sx: 584,
             sy: 0,
@@ -31,6 +40,7 @@ export const settings = {
         },
     },
     tubesPair: {
+        selector: 'pipes',
         top: {
             sx: 553,
             sy: 0,
