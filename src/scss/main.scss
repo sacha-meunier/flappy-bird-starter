@@ -1,4 +1,3 @@
-
 body {
   background: url('../resources/bcg.png');
 }
@@ -12,11 +11,37 @@ h1 {
   text-transform: uppercase;
 }
 
+.canvas-container {
+  position: relative;
+  width: 288px;
+  height: 511px;
+  margin: 0 auto;
+
+  /*#birdie {
+    z-index: 4;
+  }
+
+  #pipes {
+    z-index: 3;
+  }
+
+  #ground {
+    z-index: 2;
+  }
+
+  #background {
+    z-index: 1;
+  }*/
+}
+
 canvas {
-  display: block;
-  margin: 20px auto;
+  margin: 20px 0;
   border: 1px solid rgba(0, 50, 100, 0.4);
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 ::selection {
